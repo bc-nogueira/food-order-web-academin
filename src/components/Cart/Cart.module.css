@@ -16,7 +16,8 @@
 }
 
 .actions {
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
 }
 
 .actions button {
@@ -26,6 +27,9 @@
   border: 1px solid #8a2b06;
   padding: 0.5rem 2rem;
   border-radius: 25px;
+}
+
+.actions div button {
   margin-left: 1rem;
 }
 

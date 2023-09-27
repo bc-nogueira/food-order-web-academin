@@ -8,8 +8,9 @@ I coded along during the course [React - The Complete Guide (incl Hooks, React R
 
 Everything included in the first commit is from the original project. All later commits are changes that I made to the project. These changes include:
 
-- Totally remove an item from the cart :heavy_check_mark:
-- Clean cart
+- Totally remove an item from the cart :heavy_check_mark: (commit [6da66bd](https://github.com/bc-nogueira/food-order-web-academin/commit/6da66bd2fb622e58540194f7a09ec80ce51d25fb))
+
+- Clear cart :heavy_check_mark:
 
 ## Check it in action
 

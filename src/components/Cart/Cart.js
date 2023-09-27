@@ -23,6 +23,10 @@ const Cart = props => {
     cartCtx.totallyRemoveItem({ ...item });
   };
 
+  const clearCartHandler = () => {
+    cartCtx.clearCart();
+  };
+
   const cartItems = (
     <ul className={classes['cart-items']}>
       {cartCtx.items.map(item => (
@@ -46,10 +50,18 @@ const Cart = props => {
         <span>{totalAmount}</span>
       </div>
       <div className={classes.actions}>
-        <button className={classes['button--all']} onClick={props.onHideCart}>
-          Close
-        </button>
-        {hasItems && <button className={classes.button}>Order</button>}
+        {hasItems && (
+          <button className={classes.button} onClick={clearCartHandler}>
+            Clear
+          </button>
+        )}
+
+        <div>
+          <button className={classes['button--all']} onClick={props.onHideCart}>
+            Close
+          </button>
+          {hasItems && <button className={classes.button}>Order</button>}
+        </div>
       </div>
     </Modal>
   );
