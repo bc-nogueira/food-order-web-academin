@@ -8,7 +8,8 @@ I coded along during the course [React - The Complete Guide (incl Hooks, React R
 
 Everything included in the first commit is from the original project. All later commits are changes that I made to the project. These changes include:
 
-- Delete an item directly without having to remove the total amount of the item one by one
+- Totally remove an item from the cart :heavy_check_mark:
+- Clean cart
 
 ## Check it in action
 
