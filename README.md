@@ -10,7 +10,7 @@ Everything included in the first commit is from the original project. All later 
 
 - Totally remove an item from the cart :heavy_check_mark: (commit [6da66bd](https://github.com/bc-nogueira/food-order-web-academin/commit/6da66bd2fb622e58540194f7a09ec80ce51d25fb))
 
-- Clear cart :heavy_check_mark:
+- Clear cart :heavy_check_mark: (commit [f7d4ca9](https://github.com/bc-nogueira/food-order-web-academin/commit/f7d4ca92fb7dba87f459d5e7fa257aa988d26ddd))
 
 ## Check it in action
 
